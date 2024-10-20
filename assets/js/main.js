@@ -14,10 +14,10 @@ function darkmode() {
 function lightmode() {
     document.getElementById('theme').setAttribute('href', '../assets/css/light.css'); 
     document.getElementById('toggle').className='fa-solid fa-toggle-on toggleon';
-    document.getElementById('topwhite').src='../assets/images/shape-top-white-80.png'
-    document.getElementById('bottomwhite').src='../assets/images/shape-bottom-white-80.png'
-    document.getElementById('topgrey').src='../assets/images/shape-top-grey-80.png'
-    document.getElementById('bottomgrey').src='../assets/images/shape-bottom-grey-80.png'
-    document.getElementById('topgrey2').src='../assets/images/shape-top-grey-80.png'
-    document.getElementById('bottomgrey2').src='../assets/images/shape-bottom-grey-80.png'
+    document.getElementById('topwhite').src='../assets/images/shape-top-white-80.png';
+    document.getElementById('bottomwhite').src='../assets/images/shape-bottom-white-80.png';
+    document.getElementById('topgrey').src='../assets/images/shape-top-grey-80.png';
+    document.getElementById('bottomgrey').src='../assets/images/shape-bottom-grey-80.png';
+    document.getElementById('topgrey2').src='../assets/images/shape-top-grey-80.png';
+    document.getElementById('bottomgrey2').src='../assets/images/shape-bottom-grey-80.png';
 }
